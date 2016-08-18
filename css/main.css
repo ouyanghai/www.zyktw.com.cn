@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** 图片引用区域 *****/
+.logoBox { background:url(../images/logo.png) no-repeat;}
+.chinaNews h2 strong ,.searchTop ,.navSearch ,.reviewCtrl ,.milSlogan .searchBox ,.titB ,.vList h4 em ,.military .tit ,.codeWeibo ,.codeWeixin ,.iconWeibo ,.iconWeixin { background:url(../../images/news/mil2015.png) no-repeat;}
+.weapons li .weapItem .weapSub{ background:url(../../images/news/weapNormal.png) no-repeat;}
+.weapons li .weapItem .weapOver{ background:url(../../images/news/weapOver.png) no-repeat;}
+
+/***** 公共区 *****/
+a { color:#666;}
+a:hover{ color:#d00005;}
+/**/
+.chinaNews ,.highDynamic ,.localNews ,.wind { height:320px; overflow:hidden;}
+.chinaNews h2 ,.highDynamic h2 { height:45px;}
+.chinaNews h2 strong { background-position:-275px -165px; text-indent:-500px; overflow:hidden; top:10px;}
+.chinaNews li a ,.highDynamic li a { width:321px;}
+/**/
+.wrap { padding:0;}
+.wrapCon { width:1100px; margin:0 auto; position:relative;}
+.wrapMain { display:block; width:1000px; margin:0 auto; padding:0 0 40px; position:relative;}
+.adDt ,.conFir { width:1000px;}
+.adDtList { display:block; width:1000px; margin:10px auto 0; text-align:center;}
+.conBox { display:block; width:1000px; overflow:hidden; margin:0 auto 30px; clear:both;}
+.leftBox ,.midBox { width:340px; float:left;}
+.leftBox { margin:0 30px 0 0;}
+.rigBox { width:260px; float:right;}
+.ad { width:1000px; margin:0 auto 35px;}
+.location { margin:20px 0 10px;}
+/**/
+.tit { display:block; font-weight:normal; height:40px; line-height:40px; font-size:18px; color:#44650b; position:relative; margin:0 0 15px; border-bottom:#999 1px solid;}
+.tit strong { display:inline-block; border-bottom:#44650b 2px solid; margin-bottom:0; height:39px; line-height:39px; font-family:Microsoft YaHei,SimSun; font-weight:normal; font-size:18px; color:#44650b; padding:0 3px;}
+.tit strong a { color:#44650b;}
+.tit strong a:hover { color:#d00005; text-decoration:none;}
+.tit em { font-style:normal; position:absolute; right:0; top:1px; display:block; width:50px; text-align:right;}
+.tit em a { font-size:12px; font-weight:normal; color:#5e5e5e;}
+.tit em a:hover { color:#cd0200;}
+.titB { background-position:0 -175px; display:block; font-weight:normal; height:40px; line-height:40px; font-size:18px; color:#fff; position:relative; margin:0 0 15px;}
+.titB strong { display:inline-block; font-family:Microsoft YaHei,SimSun; font-weight:normal; font-size:18px; color:#fff; margin:0 0 0 15px;}
+.titB strong a { color:#fff;}
+.titB strong a:hover { color:#ffff00; text-decoration:none;}
+.titB em { font-style:normal; position:absolute; right:15px; top:1px; display:block; width:50px; text-align:right;}
+.titB em a { font-size:12px; font-weight:normal; color:#fff;}
+.titB em a:hover { color:#ffff00; text-decoration:none;}
+
+/*********** 文字混排 ************/
+.txtArray { display:block; height:65px; margin:0 0 12px;}
+.txtArray h4 { height:22px; font-weight:bold; white-space:nowrap; overflow:hidden; margin:0 0 8px;}
+.txtArray h4 a:link { font-size:14px; color:#1f4268;}
+.txtArray h4 a:visited { color:#5f789e;}
+.txtArray h4 a:hover { color:#cd0200;}
+.txtArray h4 a:active {color:#1f4268;}
+.txtArray h5 { line-height:18px; font-weight:normal; font-size:12px; text-align:justify; color:#666 !important;}
+.txtArray h5 p { color:#666;}
+.txtArray h5 em ,.txtArray h5 em a { color:#d00005;}
+
+/*********** 文字列表 ************/
+.iconBoxT14 li { height:30px; line-height:30px; white-space:nowrap;}
+.iconBoxT14 li a {font-size:14px; color: #002244;}
+.iconBoxT14 li a:hover { color:#cd0200;}
+.iconBoxT14 li.first { margin:7px 0 0;}
+.iconBoxT14 li.first a:link { color:#295285; font-family:Microsoft YaHei; font-size:16px;}
+.iconBoxT14 li.first a:visited { color:#5f789e; font-family:Microsoft YaHei;font-size:16px;}
+.iconBoxT14 li.first a:hover { color:#cd0200; font-family:Microsoft YaHei;font-size:16px;}
+.iconBoxT14 li.first a:active { color:#295285; font-family:Microsoft YaHei;font-size:16px;}
+.iconBoxT14 li strong { font-weight:bold; margin:25px 0 0;}
+
+/*********** 图片列表 ************/
+.picAll { width:1020px;}
+.picAll li { float:left; width:188px; height:175px; margin:0px 15px 20px 0;}
+.picAll li a { width:188px; height:138px;}
+.picAll li img { width:188px; height:138px;}
+.picAll .txt { display:block; width:188px; height:30px; line-height:30px; overflow:hidden; color:#002244; text-align:center;}
+.picAll .txt:hover { color:#d00005;}
+
+/*********** 图文混排 ************/
+.photoText { display:block; height:115px; margin:0 0 12px;}
+.photoText h4 { height:20px; white-space:nowrap; overflow:hidden; margin:0 0 13px;}
+.photoText h4 a { font-weight:normal; font-family:Microsoft YaHei,SimSun; font-size:16px; caption-side:#000;}
+.photoText h4 a:link { color:#295285;}
+.photoText h4 a:visited { color:#5f789e;}
+.photoText h4 a:hover { color:#cd0200;} 
+.photoText h4 a:active {color:#295285;}
+.photoText img { width:120px; height:80px; float:left; margin-right:10px;}
+.photoText h5 { height:80px; overflow:hidden; line-height:24px; font-weight:normal; font-size:12px; text-align:justify; color:#666 !important;}
+.photoText h5 p { color:#999;}
+.photoText h5 em ,.photoText h5 em a { color:#d00005;}
+
+/***** 顶部搜索 *****/
+.searchTop { background-position:5px 0; display:block; width:1000px; height:30px; margin:11px auto 7px;}
+.navSearch { background-position:0 -35px; width:190px; margin:0;}
+.navSearch input.searchBox { width:152px;}
+
+/***** 导航 *****/
+.logoBox {  display:block; width:210px; height:95px; position:absolute;top:10px;}
+/**/
+.navCon { display:block; background:#CACACA; width:996px; height:82px; margin:0 auto; position:relative; border:#ededed 2px solid;}
+/**/
+.navMain { display:block; width:814px; font-size:14px; color:#d6ebf9; line-height:26px; margin:0; padding:0; position:absolute; top:17px; *top:-8px; right:0;}
+.navMain strong ,.navMain strong a { color:#333;}
+.navMain a { font-size:14px; color:#666; margin:0 15px 0 0; text-decoration:none;}
+.navMain a:hover { color:#d00005; text-decoration:underline;}
+.navMain ul { display:block; margin:0; padding:0; overflow:hidden;}
+.navMain li { display:inline-block; float:left; text-align:left; height:48px; margin:0 15px 0 0; padding:0 0 0 17px; border-left:#e4e4e4 1px solid; overflow:hidden; position:relative;}
+.navMain li:first-child { border:none;}
+.navMain dl { margin-left:10px; padding:0;}
+.navMain dt { height:20px; line-height:20px; margin:0 0 7px; padding:0; white-space:nowrap;}
+.navMain .pA { width:203px;}
+.navMain .pB { width:173px;}
+.navMain .pC { width:173px;}
+.navMain .pD { width:201px; margin:0;}
+
+/***** 头条 *****/
+.milTopNews{display:block; width:1000px; height:53px; line-height:53px; text-align:center; white-space:nowrap; overflow:hidden; padding:30px 0 5px;}
+.milTopNews a { font-size:36px; color:#395f86!important; font-weight:bold; font-family:Microsoft YaHei;}
+.milTopNews a:hover { color:#d00005 !important;}
+
+/***** 第一部分 *****/
+.conFir { margin:20px auto 0; position:relative; overflow:inherit;}
+/**/
+.colSection{ width:616px; overflow:hidden; float:left;}
+.milReview{ clear:both; width:616px; overflow:hidden; padding-top:13px;}
+.reviewList{ width:272px; height:56px; line-height:28px; float:left;}
+.reviewList li{ color:#2b2b2b;}
+.reviewList li a{ color:#666; margin:0 3px; font-size:14px; line-height:24px;}
+.reviewList li a:link { color:#666;}
+.reviewList li a:visited { color:#3E5E87;}
+.reviewList li a:hover { color:#820C0C;}
+.reviewList li a:active {color:#024;}
+/**/
+.boxArea { display:block; width:270px; height:40px; position:absolute; left:0; top:375px; z-index:9999;}
+.iconWeibo ,.iconWeixin { display:block; width:132px; height:40px; position:absolute; top:0; z-index:999;}
+.iconWeibo { background-position:0 -472px; left:0;}
+.iconWeibo:hover { background-position:0 -522px; height:184px;}
+
+.iconWeixin {  left:138px;background-position:-144px -472px; cursor:default;}
+.iconWeixin:hover { background-position:-144px -522px; height:184px;}
+/**/
+
+
+/***** 焦点图 *****/
+.focusNews { background:#f2f2f2; border:#ededed 2px solid; padding:6px;}
+#foucsBox ,#foucsBox .imgCon ,#foucsBox .imgCon li img ,#foucsBox .imgCon li { height:340px;}
+/*#foucsBox .imgCon li .imgTitle { bottom:65px;}*/
+/**/
+.newsFir { height:418px;}
+.newsFir ul { margin:0;}
+.newsFir .listBoxT14 li { margin:0; *text-indent:0;}
+.newsFir .listBoxT14 li a { font-size:16px; color:#172c45; *text-indent:6px;}
+.newsFir .listBoxT14 li a:hover { color:#d00005;}
+.newsFir .listBoxT14 .first { background:none; text-indent:0; font-weight:bold; margin:6px 0 0;}
+.newsFir .listBoxT14 .first a { color:#395f86; text-indent:0;}
+.newsFir .listBoxT14 li:first-child { margin:0;}
+.reviewCtrl{ background-position:0 -75px; width:337px; height:45px; overflow:visible; float:right; margin-top:5px; position:relative;}
+.reviewCtrl .reviewTit em{ color:#44650b;}
+.reviewCon{ width:215px; text-align:left; height:22px; margin:13px auto 0; float:right;}
+.reviewCon a{ display:inline-block; text-align:center; width:42px; height:20px; margin:0 3px 0 4px; line-height:20px; color:#000; font-size:14px; font-family:Microsoft YaHei;}
+.reviewCon a:hover{ text-decoration:none; background:#f2f2f2; color:#666;}
+.reviewCon a.cur{ background:#f2f2f2;}
+
+/***** 标语 *****/
+.milSlogan{ display:block; clear:both; width:1000px; margin:0 auto 15px; padding:30px 0 0; height:35px; position:relative; text-align:left;}
+.milSlogan a{ display:inline-block ; background:#fff; height:30px; font-size:24px; color:#395f86; margin:0 auto; padding:0 10px 0 0; font-weight:700; font-family:Microsoft YaHei; float:left;}
+.milSlogan a span{ color:#6c8051; font-size:24px;background:#fff;}
+.milSlogan a:hover{ color:#d00005; text-decoration:none;}
+/**/
+.milSlogan .searchBox { background-position:0 -130px; display:inline-block; width:337px; height:31px; padding:2px; float:right; position:relative; overflow:hidden;}
+.milSlogan .searchBox input { border:none; width:255px; height:31px; line-height:31px; font-family:Microsoft YaHei,SimHei; font-size:14px; text-indent:5px; color:#d1d1d1;}
+.milSlogan .searchBox .btnSearSlogan { display:block; background:none; width:72px; height:35px; line-height:35px; font-weight:normal; text-align:center; font-size:16px; color:#fff; position:absolute; top:0; right:0; padding:0; text-indent:0;}
+
+/***** 兵器 *****/
+.weapons{ width:996px; position:relative; height:80px; margin:15px auto 30px; overflow:hidden; border:#ededed 2px solid; /*-moz-box-shadow:inset 0px 0px 10px #e6e6e6;-webkit-box-shadow: inset 0px 0px 10px #e6e6e6;box-shadow: inset 0px 0px 10px #e6e6e6;*/}
+.weapons li { display:block; width:124px; height:80px; float:left; overflow:hidden; position:relative;}
+.weapons li .weapItem { width:812px; overflow:hidden; height:80px; position:relative;}
+.weapons li .weapItem .weapSub{ position:absolute; left:0px; top:0px; display:block; width:125px; height:80px; cursor:pointer; z-index:92;}
+.weapons li .weapItem .weapOver{ position:absolute; display:block; width:128px; height:80px; left:0px; top:0px; display:none; z-index:2;}
+.weapons li .weapItem .weapMain{ position:absolute; display:block; width:696px;height:78px; border-top:1px solid #eeeeee; border-bottom:1px solid #eeeeee; right:0px; top:0px; z-index:1;}
+.weapons li .weapItem .weapMain .weapInner{ width:665px; height:52px; line-height:20px; margin-top:12px;word-break:break-all; padding-left:12px; overflow:hidden;}
+.weapons li .weapItem .weapMain .weapInner a{ display:inline-block; color:#2b2b2b; font-size:14px; padding:0 5px; line-height:20px; height:20px; margin:4px 2px;font-family:Microsoft YaHei;}
+.weapons li .weapItem .weapMain .weapInner a:hover{ color:#fff; background:#af874b; text-decoration:none;}
+.weapons li .weapItem .weapNor1{ background-position:0 0;}
+.weapons li .weapItem .weapNor2{ background-position:0 -80px;}
+.weapons li .weapItem .weapNor3{ background-position:0 -160px;}
+.weapons li .weapItem .weapNor4{ background-position:0 -240px;}
+.weapons li .weapItem .weapNor5{ background-position:0 -320px;}
+.weapons li .weapItem .weapNor6{ background-position:0 -400px;}
+.weapons li .weapItem .weapNor7{ background-position:0 -480px;}
+.weapons li .weapItem .weapNor8{ background-position:0 -560px;}
+.weapons li .weapItem .weapOver1{ background-position:0 0;}
+.weapons li .weapItem .weapOver2{ background-position:0 -80px;}
+.weapons li .weapItem .weapOver3{ background-position:0 -160px;}
+.weapons li .weapItem .weapOver4{ background-position:0 -240px;}
+.weapons li .weapItem .weapOver5{ background-position:0 -320px;}
+.weapons li .weapItem .weapOver6{ background-position:0 -400px;}
+.weapons li .weapItem .weapOver7{ background-position:0 -480px;}
+.weapons li .weapItem .weapOver8{ background-position:0 -560px;}
+
+/***** 战略与格局 *****/
+.strategy .photoText h4 { margin:0 0 8px;}
+.strategy .photoText h4 a { font-family:SimSun; font-weight:bold; font-size: 14px;}
+.strategy .photoText { height:110px; margin:0 0 5px;}
+
+/***** 环球无人机 *****/
+.uav { margin:12px 0 0;}
+.uav h2 { background-position:0 -716px; height:52px; margin:0 0 2px;}
+.uav h2 strong { text-indent:-500px; overflow:hidden;}
+.uav img { width:260px; height:130px;}
+
+/***** 万国兵器 *****/
+.allMilitary { width:260px; overflow:hidden; margin-bottom:20px;}
+.allMilBox { width:260px; overflow:hidden;}
+.allMilBox ul { width:290px;}
+.allMilBox li { float:left; height:27px; width:88px; overflow:hidden; margin:0 3px 7px 0;}
+.allMilBox li .pic { float:left; width:26px; height:15px; margin:6px 6px 2px 4px; border:#ddd 1px solid;} 
+.allMilBox li .pic img { width:26px; height:15px; }
+.allMilBox li .txt { font-size:12px; color:#2b2b2b; display:block; max-width:60px; overflow:hidden; height:15px; line-height:15px; float:left; margin-top:7px;}
+.allMilBox li:hover { background:#eeeeee; border-radius:3px;}
+
+/***** 名家专栏 *****/
+.peoList { display:block; width:290px;}
+.peoList li { display:block; width:80px; height:115px; float:left; margin:0 10px 0 0;}
+.peoList li img { display:block; width:80px; height:80px;}
+.peoList .txt { display:block; height:30px; line-height:30px; text-align:center; font-size:14px; color:#666;}
+.peoList .txt:hover { color:#d70000;}
+/**/
+.peoLink { width:290px; line-height:27px;}
+.peoLink a { display:inline-block; width:65px; font-size:14px; color:#666;}
+.peoLink a:hover { color:#d70000;}
+
+/***** 高清图集 *****/
+.imgGroup { display:block; overflow:hidden; *margin:0 0 20px;}
+
+/***** 热门排行 *****/
+.clickRank { height:385px;}
+.clickRank .titB { margin:0;}
+.tabsList { height:25px; border-top:none; border-bottom:#e4e4e4 1px solid; margin:10px 0 14px;}
+.tabsList li { width:65px; height:25px; line-height:25px; font-family:SimSun; font-size:12px; color:#666;}
+.tabsList .cur { height:23px; border-bottom:#44650b 2px solid; margin:0 0 -1px; color:#44650b;}
+.ranking li { height:28px; *height:25px; margin:0;}
+.ranking li a { height:16px; line-height:16px;}
+.ranking li a:hover { background:none; color:#d00005;}
+.ranking em { background:#999; width:16px; height:16px; line-height:16px; font-style:normal; font-size:12px;}
+.ranking .blueBox ,.ranking .blueBoxMid ,.ranking .blueBoxLight { background:#820c0c;}
+
+/***** 拥军优属 *****/
+.excitingTopics { display:block;}
+.focusBox { display:block; margin:0; padding:0; list-style:none; width:260px;}
+.focusBox li { display:block; width:260px; height:35px; float:left; list-style:none;}
+.focusBox li img { display:none; float:left;}
+.focusBox li h5 { margin:0; padding:0; display:block; width:260px; height:35px; line-height:35px; font-size:12px; color:#666; float:left;}
+.focusBox li h5 a { width:260px; height:35px; line-height:35px; color:#2b2b2b; font-size:14px;}
+.focusBox a:hover { color:#d00005;}
+.focusBox li.curr { height:145px; position:relative; overflow:hidden; margin:0 0 35px;}
+.focusBox li.curr .img ,.focusBox li.curr img { display:block; width:260px; height:145px;}
+.focusBox li.curr em {color:#fff; font-size:24px; margin:0px; line-height:40px; height:40px; margin-left:10px;}
+.focusBox li.curr h5 { position:absolute; bottom:0; left:0; background: rgba(0,0,0,0.6) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #99000000, endColorstr = #99000000); zoom: 1; width:260px; height:35px; line-height:35px; color:#fff; text-align:center;}
+.focusBox li.curr h5 a { width:260px; height:40px; line-height:40px; color:#fff; font-size:14px;}
+
+/***** 重磅推荐 *****/
+.heavy { height:220px; overflow:hidden;}
+
+/***** 热门专题 *****/
+.hotTopics .picAll { width:260px;}
+.hotTopics li ,.hotTopics li img { width:260px; height:110px;}
+.hotTopics li { margin:0 0 10px;}
+
+/***** 军品模型 *****/
+.model { display:block; width:710px; height:415px; overflow:hidden; float:left;}
+.model li { display:block; overflow:hidden; height:170px; margin:0 0 20px;}
+.model img { display:block; width:280px; height:170px; float:left; margin:0 20px 0 0;}
+.model h4 { display:block; width:410px; height:40px; line-height:40px; float:left; white-space:nowrap; overflow:hidden;}
+.model h4 ,.model h4 a { font-family:Microsoft YaHei,SimHei; font-size:20px; color:#1f4268; font-weight:normal;}
+.model h4 a:hover { color:#d00005;}
+.model .txt { display:block; width:410px; float:left; font-size:14px; color:#666; line-height:30px; overflow:hidden;}
+.model .txt strong { font-weight:normal;}
+
+/***** 军事影视 *****/
+.milV { height:415px; overflow:hidden;}
+.vList { width:260px; margin:0 auto;}
+.vList li { display:block; width:260px; height:170px; float:left; margin:0 0 20px; position:relative;}
+.vList img { width:260px; height:170px;}
+.vList h4 { margin:0; padding:0; width:260px; height:170px; position:relative;}
+.vList h4 em { background-position:0 -225px; display:none; position:absolute; width:56px; height:56px; left:102px; top:40px; cursor:pointer;}
+.vList h4 em:hover { background-position:-66px -225px;}
+.vList h5 { display:block; position:absolute; bottom:0; left:0; width:260px; height:35px; line-height:35px;}
+.vList h5 a { display:block; background: rgba(0,0,0,0.6) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #67000000, endColorstr = #67000000); zoom: 1; width:260px; height:35px; line-height:35px; white-space:nowrap; color:#fff; overflow:hidden; text-align:center; font-size:14px;}
+.vList h5 a:hover { background: rgba(0,0,0,0.8) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #ba000000, endColorstr = #ba000000); text-decoration:none;}
+
+/***** 军事影视 *****/
+.book { width:710px; height:530px; overflow:hidden; float:left;}
+.book ul { width:750px; margin:0 -15px;}
+.book li { width:150px; height:245px; margin:0 15px;}
+.book li img { width:150px; height:200px;}
+.book .txt { width:150px; height:35px; line-height:35px; font-size:14px; white-space:nowrap; text-align:center;}
+
+/***** 军事影视 *****/
+.soulCon ,.soulCon img { width:260px; height:145px; overflow:hidden;}
+
+/***** 中国当代36位军事家 *****/
+.military { display:block; height:310px; margin:15px 0 0; overflow:hidden;}
+.military .tit { background-position:0 -285px; font-family:Microsoft YaHei,SimHei; border:none; text-align:center; color:#666 !important; font-weight:bold;}
+.military .tit span { color:#6c8051;}
+.militaryCon h6 { width:280px; overflow:hidden;}
+.militaryCon h6 span { display:block; width:91px; margin:7px 15px 0 0; float:left;}
+.militaryCon h6 a { margin:12px 21px 0 0; line-height:14px;}
+.militaryCon img { width:91px; height:120px;}
+.militaryCon .txt { display:block; width:91px; height:30px; line-height:30px; font-weight:bold; color:#999; text-align:center; margin:0;}
+.militaryCon .txt:hover { color:#d00005;}
+.militaryCon { width:280px; line-height:26px;}
+.militaryCon a { display:inline-block; color:#666; margin:0 6px 0 0;}
+.militaryCon a:hover { color:#d00005;}
+
+/***** 军事游戏 *****/
+.milGame li { display:block; width:320px; height:195px; float:left; margin:0 6px; position:relative;}
+.milGame img { width:320px; height:195px;}
+.milGame .txt { display:block; background: rgba(0,0,0,0.6) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #67000000, endColorstr = #67000000); zoom: 1; width:320px; height:35px; line-height:35px; white-space:nowrap; color:#fff; overflow:hidden; text-align:center; font-size:14px; position:absolute; left:0; bottom:0;}
+.milGame .txt:hover { background: rgba(0,0,0,0.8) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #ba000000, endColorstr = #ba000000); text-decoration:none;}
+
+/***** 军事壁纸 *****/
+.wallpapers { display:block; overflow:hidden; margin:25px auto;}
+.wallpapers li { width:320px; height:195px; margin:0 5px 25px; float:left; position:relative;}
+.wallpapers img { width:320px; height:195px;}
+.wallpapers .txt { display:block; position:absolute; left:0; bottom:0; background: rgba(0,0,0,0.6) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #67000000, endColorstr = #67000000); zoom: 1; width:320px; height:35px; line-height:35px; white-space:nowrap; color:#fff; overflow:hidden; text-align:center; font-size:14px; position:absolute; left:0; bottom:0;}
+.milGame .txt:hover { background: rgba(0,0,0,0.8) none repeat scroll 0 0 !important; filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #ba000000, endColorstr = #ba000000); text-decoration:none;}
+/*
+.wallpapers ul { width:1000px; height:319px; position:relative; margin:0 0 0;}
+.wallpapers li { position:absolute; overflow:hidden;}
+.wallpapers .txt { background:rgba(0,0,0,0.4) none repeat scroll 0 0 !important;filter: progid:DXImageTransform.Microsoft.gradient(enabled = 'true', startColorstr = #64000000, endColorstr = #64000000); position:absolute; left:0; top:0; display:inline-block; font-family:Microsoft YaHei,SimSun; font-size:14px; color:#fff; width:100%; text-align:center;}
+.wallpapers .txt:hover { color:#fff; text-decoration:none;}
+.wallpapers .picList1 { width:329px; height:319px; left:0; top:0;}
+.wallpapers .picList1 img ,.wallpapers .picList1 .txt { width:329px; height:319px; line-height:319px;}
+.wallpapers .picList2 { width:178px; height:159px; left:331px; top:0;}
+.wallpapers .picList2 img ,.wallpapers .picList2 .txt { width:178px; height:159px; line-height:159px;}
+.wallpapers .picList3 { width:302px; height:159px; left:511px; top:0;}
+.wallpapers .picList3 img ,.wallpapers .picList3 .txt { width:302px; height:159px; line-height:159px;}
+.wallpapers .picList4 { width:302px; height:158px; left:331px; bottom:0;}
+.wallpapers .picList4 img ,.wallpapers .picList4 .txt { width:302px; height:158px; line-height:158px;}
+.wallpapers .picList5 { width:178px; height:158px; left:635px; bottom:0;}
+.wallpapers .picList5 img ,.wallpapers .picList5 .txt { width:178px; height:158px; line-height:158px;}
+.wallpapers .picList6 { width:185px; height:319px; right:0; bottom:0;}
+.wallpapers .picList6 img ,.wallpapers .picList6 .txt { width:185px; height:319px; line-height:319px;}
+*/
+
+/***** 合作媒体 *****/
+.coMedia { clear:both; width:1000px; overflow:hidden; margin:0 auto 25px; border:1px solid #fff; background:#fff;}
+.coMediaCon { display:block; padding:22px auto; line-height:30px; overflow:hidden;}
+.coMediaCon a { display:inline-block; color:#666; font-size:12px; margin:0 10px;}
+.coMediaCon a:hover { color:#d00005;}
+
+/***** 二维码 *****/
+.QRcode { display:block; width:121px; position:absolute; right:-185px; top:300px;}
+.codeWeibo ,.codeWeixin { display:block; width:121px; height:132px; margin:0 0 7px;}
+.codeWeibo { background-position:0 -330px;}
+.codeWeixin { background-position:-131px -330px;}
